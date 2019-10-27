@@ -37,6 +37,7 @@ public class InfoActivity extends AppCompatActivity {
         if (mapIntent.resolveActivity(getPackageManager()) != null) {
             startActivity(mapIntent);
         }
+    }
         // ***
         // TODO - Task 3 - Launch the Phone Activity
         // ***
@@ -46,4 +47,5 @@ public class InfoActivity extends AppCompatActivity {
             startActivity(phoneIntent);
         }
     }
-}
+
+
